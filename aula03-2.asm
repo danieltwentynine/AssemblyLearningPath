@@ -7,11 +7,11 @@ msg: .asciiz "O resultado de Y é: "
 main:
 
     # Atribui valores
-    li $s0, 7   # A
-    li $s1, 1   # B
+    li $s0, 20   # A
+    li $s1, 5  # B
     li $s2, 2   # C
-    li $s3, 2   # D
-    li $s4, 2   # E
+    li $s3, 1   # D
+    li $s4, 3   # E
 
     # Resolver a equação Y = (A - B) / C + (D * E)
     sub $t0, $s0, $s1
